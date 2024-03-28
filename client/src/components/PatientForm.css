@@ -1,0 +1,95 @@
+.patient-form-container {
+    max-width: 800px; /* Adjust max-width for larger form */
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-title {
+    text-decoration: underline;
+    text-decoration-color: #000; /* Color of the line */
+    text-decoration-style: solid; /* Style of the line (e.g., solid, dotted, dashed) */
+    text-decoration-thickness: 2px; /* Thickness of the line */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to next line */
+    justify-content: space-between; /* Add space between items */
+    margin: 5px auto;
+    padding: 5px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    flex-basis: calc(33.33% - 30px); /* Adjust width for three columns */
+}
+
+.form-g {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    flex-basis:100%; /* Set width to 100% to span the full row */
+}
+
+
+.form-label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%; /* Ensure input fields take full width */
+}
+
+.button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.input-field {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-input::placeholder {
+    font-size: 0.8em; /* Adjust the font size as needed */
+}
